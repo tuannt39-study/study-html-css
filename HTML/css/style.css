@@ -1,0 +1,70 @@
+.red {
+    color: red;
+}
+
+.thick {
+    font-size: 20px;
+}
+
+.green {
+    color: green;
+}
+
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th {
+    text-align: left
+}
+
+.table {
+    width: 50%;
+    max-width: 50%;
+    margin-bottom: 20px
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+
+.table-bordered {
+    border: 1px solid #ddd
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #ddd
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 2px
+}
+
+table.src {
+    border: 1px solid #d6d6d6;
+    width: 50%;
+    border-collapse: collapse;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #f7f7f7
+}
+
+table.src td {
+    border-collapse: collapse;
+    border: 1px solid #d6d6d6;
+    padding: 5px
+}
+
+table.src th {
+    border-collapse: collapse;
+    border: 1px solid #d6d6d6;
+    background-color: #eee;
+    padding: 5px;
+    text-align: left
+}

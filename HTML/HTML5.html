@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Đây là tiêu đề - HTML 5</title>
+	
+	<script src="./js/script.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	
+	<style>
+        #mycanvas{border:1px solid red;}
+    </style>
+
+</head>
+
+<body>
+	<header role="banner">
+		<h1>HTML5 Document Structure Example</h1>
+		<p>This page should be tried in safari, chrome or Mozila.</p>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="http://www.vietjack.com/html">HTML Tutorial</a></li>
+			<li><a href="http://www.vietjack.com/seo">SEO Tutorial</a></li>
+			<li><a href="http://www.vietjack.com/javascript">JavaScript Tutorial</a></li>
+        </ul>
+	</nav>
+	
+	<article>
+		<section>
+			<p>Once article can have multiple sections</p>
+		</section>
+	</article>
+	
+	<aside>
+		<p>This is  aside part of the web page</p>
+	</aside>
+	
+	<footer>
+		 <p>Created by <a href="http://vietjack.com/">Viet Jack</a></p>
+	</footer>
+	
+	<h1>Các thuộc tính trong HTML5</h1>
+	
+	<h2>Các thuộc tính chuẩn</h2>
+	
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+			<th>Thuộc tính</th>
+			<th>Tùy chọn</th>
+			<th>Chức năng</th>
+			</tr>
+			<tr>
+			<td>accesskey</td>
+			<td>Người dùng định nghĩa</td>
+			<td>Xác định một phím tắt để truy cập một phần tử.</td>
+			</tr>
+			<tr>
+			<td>align</td>
+			<td>right, left, center</td>
+			<td>Các thẻ căn chỉnh ngang.</td>
+			</tr>
+			<tr>
+			<td>background</td>
+			<td>URL</td>
+			<td>Đặt một ảnh nền sau một phần tử.</td>
+			</tr>
+			<tr>
+			<td>bgcolor</td>
+			<td>Giá trị số, thập lục phân, RBG</td>
+			<td>Đặt một màu nền sau một phần tử.</td>
+			</tr>
+			<tr>
+			<td>class</td>
+			<td>Người dùng định nghĩa</td>
+			<td>Phân loại một phần tử để sử dụng với Cascading Style Sheets.</td>
+			</tr>
+			<tr>
+			<td>contenteditable</td>
+			<td>true, false</td>
+			<td>Xác định nếu người sử dụng có thể chỉnh sửa nội dung phần tử hoặc không.</td>
+			</tr>
+			<tr>
+			<td>contextmenu</td>
+			<td>Menu id</td>
+			<td>Xác định menu bối cảnh cho một phần tử</td>
+			</tr>
+			<tr>
+			<td>data-XXXX</td>
+			<td>Người dùng định nghĩa</td>
+			<td>Các thuộc tính Custom. Tác giả của một tài liệu HTML có thể định nghĩa các thuộc tính riêng của họ. Phải bắt đầu với "data-".</td>
+			</tr>
+			<tr>
+			<td>draggable</td>
+			<td>true,false, auto</td>
+			<td>Xác định có hoặc không một người dùng được phép kéo một phần tử.</td>
+			</tr>
+			<tr>
+			<td>height</td>
+			<td>Giá trị số</td>
+			<td>Xác định chiều cao của bảng, hình ảnh, hoặc ô bảng.</td>
+			</tr>
+			<tr>
+			<td>hidden</td>
+			<td>hidden</td>
+			<td>Xác định có hoặc không phần tử nên là nhìn thấy hoặc không.</td>
+			</tr>
+			<tr>
+			<td>id</td>
+			<td>Người dùng định nghĩa</td>
+			<td>Đặt tên một phần tử để sử dụng với Cascading Style Sheets.</td>
+			</tr>
+			<tr>
+			<td>item</td>
+			<td>Danh sách các phần tử</td>
+			<td>Được sử dụng để tạo nhóm các phần tử.</td>
+			</tr>
+			<tr>
+			<td>itemprop</td>
+			<td>Danh sách các mục</td>
+			<td>Được sử dụng để tạo nhóm các mục.</td>
+			</tr>
+			<tr>
+			<td>spellcheck</td>
+			<td>true, false</td>
+			<td>Xác định nếu phần tử đó phải được kiểm tra lỗi chính tả và ngữ pháp.</td>
+			</tr>
+			<tr>
+			<td>style</td>
+			<td>CSS Style sheet</td>
+			<td>Xác định một style nội tuyến cho một phần tử.</td>
+			</tr>
+			<tr>
+			<td>subject</td>
+			<td>Người dùng định nghĩa ID</td>
+			<td>Xác định mục tương ứng của phần tử.</td>
+			</tr>
+			<tr>
+			<td>tabindex</td>
+			<td>Số Tab</td>
+			<td>Xác định thứ tự tab của một phần tử.</td>
+			</tr>
+			<tr>
+			<td>title</td>
+			<td>Người dùng định nghĩa</td>
+			<td>"Pop-up" title  cho các phần tử của bạn.</td>
+			</tr>
+			<tr>
+			<td>valign</td>
+			<td>top, middle, bottom</td>
+			<td>Các thẻ căn chỉnh dọc trong một phần tử HTML.</td>
+			</tr>
+			<tr>
+			<td>width</td>
+			<td>Giá trị số</td>
+			<td>Xác định độ rộng của bảng, hình ảnh hoặc ô bảng.</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h2>Các thuộc tính Custom (tùy chỉnh)</h2>
+	<p>
+	&lt;div class="example" data-subject="physics" data-level="complex"> <br>
+	... <br>
+	&lt;/div&gt;
+	</p>
+	
+	<h1>Sự kiện (Event) trong HTML5</h1>
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+			<th>Thuộc tính</th>
+			<th>Giá trị</th>
+			<th>Miêu tả</th>
+			</tr>
+			<tr><td>offline</td><td>script</td><td>Kích hoạt khi tài liệu ở ngoại tuyến (offline)</td></tr>
+			<tr><td>onabort</td><td>script</td><td>Kích hoạt trên sự kiện bỏ dở giữa chừng.</td></tr>
+			<tr><td>onafterprint</td><td>script</td><td>Kích hoạt sau khi tài liệu được in</td></tr>
+			<tr><td>onbeforeonload</td><td>script</td><td>Kích hoạt trước khi tài liệu tải</td></tr>
+			<tr><td>onbeforeprint</td><td>script</td><td>Kích hoạt trước khi tài liệu được in</td></tr>
+			<tr><td>onblur</td><td>script</td><td>Kích hoạt khi cửa sổ mất trọng tâm</td></tr>
+			<tr><td>oncanplay</td><td>script</td><td>Kích hoạt khi media (đa phương tiện) có thể bắt đầu chơi, nhưng có thể phải dừng lại để đệm</td></tr>
+			<tr><td>oncanplaythrough</td><td>script</td><td>Kích hoạt khi media có thể được chơi tới hết, mà không dừng lại để đệm</td></tr>
+			<tr><td>onchange</td><td>script</td><td>Kích hoạt khi một phần tử thay đổi</td></tr>
+			<tr><td>onclick</td><td>script</td><td>Kích hoạt trên cú nhấp chuột</td></tr>
+			<tr><td>oncontextmenu</td><td>script</td><td>Kích hoạt khi một menu bối cảnh được kích hoạt</td></tr>
+			<tr><td>ondblclick</td><td>script</td><td>Kích hoạt trên cú nhấp đúp chuột</td></tr>
+			<tr><td>ondrag</td><td>script</td><td>Kích hoạt khi một phần tử bị kéo</td></tr>
+			<tr><td>ondragend</td><td>script</td><td>Kích hoạt tại phần cuối của hoạt động kéo</td></tr>
+			<tr><td>ondragenter</td><td>script</td><td>Kích hoạt khi một phần tử đã được kéo tới mục tiêu thả hợp lệ</td></tr>
+			<tr><td>ondragleave</td><td>script</td><td>Kích hoạt khi một phần tử rời khỏi mục tiêu thả hợp lệ</td></tr>
+			<tr><td>ondragover</td><td>script</td><td>Kích hoạt khi một phần tử đang được kéo qua một mục tiêu thả hợp lệ</td></tr>
+			<tr><td>ondragstart</td><td>script</td><td>Kích hoạt tại phần đầu của hoạt động kéo</td></tr>
+			<tr><td>ondrop</td><td>script</td><td>Kích hoạt khi phần tử được kéo đang được thả</td></tr>
+			<tr><td>ondurationchange</td><td>script</td><td>Kích hoạt khi độ dài media được thay đổi</td></tr>
+			<tr><td>onemptied</td><td>script</td><td>Kích hoạt khi một phần tử nguồn media đột nhiên trở nên trống.</td></tr>
+			<tr><td>onended</td><td>script</td><td>Khi hoạt khi media đã chơi đến cuối.</td></tr>
+			<tr><td>onerror</td><td>script</td><td>Kích hoạt khi một lỗi xảy ra</td></tr>
+			<tr><td>onfocus</td><td>script</td><td>Kích hoạt khi cửa sổ nhận trọng tâm</td></tr>
+			<tr><td>onformchange</td><td>script</td><td>Kích hoạt khi một form thay đổi</td></tr>
+			<tr><td>onforminput</td><td>script</td><td>Kích hoạt khi một form nhận đầu vào từ người sử dụng</td></tr>
+			<tr><td>onhaschange</td><td>script</td><td>Kích hoạt khi tài liệu đã thay đổi</td></tr>
+			<tr><td>oninput</td><td>script</td><td>Kích hoạt khi một phần tử nhận đầu vào từ người dùng</td></tr>
+			<tr><td>oninvalid</td><td>script</td><td>Kích hoạt khi một phần tử là không hợp lệ</td></tr>
+			<tr><td>onkeydown</td><td>script</td><td>Kích hoạt khi một phím bị nhấn</td></tr>
+			<tr><td>onkeypress</td><td>script</td><td>Kích hoạt khi một phím bị nhấn và thả ra</td></tr>
+			<tr><td>onkeyup</td><td>script</td><td>Kích hoạt khi một phím bị thả ra</td></tr>
+			<tr><td>onload</td><td>script</td><td>Kích hoạt khi tài liệu tài</td></tr>
+			<tr><td>onloadeddata</td><td>script</td><td>Kích hoạt khi dữ liệu media được tải</td></tr>
+			<tr><td>onloadedmetadata</td><td>script</td><td>Kích hoạt khi khoảng thời gian và dữ liệu media khác của một phần tử media được tải</td></tr>
+			<tr><td>onloadstart</td><td>script</td><td>Kích hoạt khi trình duyệt bắt đầu tải dữ liệu media</td></tr>
+			<tr><td>onmessage</td><td>script</td><td>Kích hoạt khi thông báo được kích hoạt</td></tr>
+			<tr><td>onmousedown</td><td>script</td><td>Kích hoạt khi một nút chuột được nhấn</td></tr>
+			<tr><td>onmousemove</td><td>script</td><td>Kích hoạt khi con trỏ chuột di chuyển</td></tr>
+			<tr><td>onmouseout</td><td>script</td><td>Kích hoạt khi con trỏ chuột di chuyển ra khỏi một phần tử</td></tr>
+			<tr><td>onmouseover</td><td>script</td><td>Kích hoạt khi con trỏ chuột di chuyển qua một phần tử</td></tr>
+			<tr><td>onmouseup</td><td>script</td><td>Kích hoạt khi một nút chuột bị thả ra</td></tr>
+			<tr><td>onmousewheel</td><td>script</td><td>Kích hoạt khi bánh xe chuột được quay</td></tr>
+			<tr><td>onoffline</td><td>script</td><td>Kích hoạt khi tài liệu ở ngoại tuyến</td></tr>
+			<tr><td>onoine</td><td>script</td><td>Kích hoạt khi tài liệu ở nội tuyến</td></tr>
+			<tr><td>ononline</td><td>script</td><td>Kích hoạt khi tài liệu ở nội tuyến</td></tr>
+			<tr><td>onpagehide</td><td>script</td><td>Kích hoạt khi cửa sổ bị ẩn</td></tr>
+			<tr><td>onpageshow</td><td>script</td><td>Kích hoạt khi cửa sổ trở lên nhìn thấy</td></tr>
+			<tr><td>onpause</td><td>script</td><td>Kích hoạt khi dữ liệu media bị dừng</td></tr>
+			<tr><td>onplay</td><td>script</td><td>Kích hoạt khi dữ liệu media đang bắt đầu chơi</td></tr>
+			<tr><td>onplaying</td><td>script</td><td>Kích hoạt khi dữ liệu media đã bắt đầu chơi</td></tr>
+			<tr><td>onpopstate</td><td>script</td><td>Kích hoạt khi lịch sử cửa sổ thay đổi</td></tr>
+			<tr><td>onprogress</td><td>script</td><td>Kích hoạt khi trình duyệt đang lấy dữ liệu media</td></tr>
+			<tr><td>onratechange</td><td>script</td><td>Kích hoạt khi tốc độ chơi của dữ liệu media đã thay đổi</td></tr>
+			<tr><td>onreadystatechange</td><td>script</td><td>Kích hoạt khi trạng thái-sẵn sàng thay đổi</td></tr>
+			<tr><td>onredo</td><td>script</td><td>Kích hoạt khi tài liệu thực hiện một Redo</td></tr>
+			<tr><td>onresize</td><td>script</td><td>Kích hoạt khi cửa sổ bị thay đổi kích cỡ</td></tr>
+			<tr><td>onscroll</td><td>script</td><td>Kích hoạt khi thanh cuốn một phần tử đang được cuốn</td></tr>
+			<tr><td>onseeked</td><td>script</td><td>Kích hoạt khi thuộc tính seeking của phần tử media không còn giá trị đúng nữa, và sự tìm kiếm đã kết thúc</td></tr>
+			<tr><td>onseeking</td><td>script</td><td>Kích hoạt khi thuộc tính tìm kiếm của phần tử media là đúng, và sự tìm kiếm đã bắt đầu</td></tr>
+			<tr><td>onselect</td><td>script</td><td>Kích hoạt khi phần tử được chọn</td></tr>
+			<tr><td>onstalled</td><td>script</td><td>Kích hoạt khi có một lỗi trong khi lấy dữ liệu media</td></tr>
+			<tr><td>onstorage</td><td>script</td><td>Kích hoạt khi một tài liệu tải</td></tr>
+			<tr><td>onsubmit</td><td>script</td><td>Kích hoạt khi một form được đệ trình</td></tr>
+			<tr><td>onsuspend</td><td>script</td><td>Kích hoạt khi trình duyệt đã đang lấy dữ liệu media, nhưng đã dừng lại trước khi toàn bộ file media được lấy</td></tr>
+			<tr><td>ontimeupdate</td><td>script</td><td>Kích hoạt khi media thay đổi vị trí chơi của nó</td></tr>
+			<tr><td>onundo</td><td>script</td><td>Kích hoạt khi một tài liệu thực hiện một Undo</td></tr>
+			<tr><td>onunload</td><td>script</td><td>Kích hoạt khi một người sử dụng rời khỏi một tài liệu</td></tr>
+			<tr><td>onvolumechange</td><td>script</td><td>Kích hoạt khi media thay đổi volume, cả khi volume được thiết lập là  "mute"</td></tr>
+			<tr><td>onwaiting</td><td>script</td><td>Kích hoạt khi media đã dừng chơi, những được mong đợi phục hồi.</td></tr>
+		</tbody>
+	</table>
+	
+	<h1>Web Form 2.0 trong HTML5</h1>
+	
+	<h2> Phần tử &lt;input> trong HTML4</h2>
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+			<th>Kiểu</th>
+			<th>Miêu tả</th>
+			</tr>
+			<tr><td>text</td><td>Một trường văn bản không ràng buộc kiểu form, trên danh nghĩa không ràng buộc các dòng ngắt.</td></tr>
+			<tr><td>password </td><td>Một trường văn bản không ràng buộc kiểu form với thông tin nhạy cảm, trên danh nghĩa không ràng buộc các dòng ngắt.</td></tr>
+			<tr><td>checkbox </td><td>Tập hợp của 0 và nhiều giá trị hơn từ một danh sách đã xác định trước.</td></tr>
+			<tr><td>radio</td><td>Một giá trị liệt kê</td></tr>
+			<tr><td>submit</td><td>Một kiểu form không ràng buộc của nút khởi tạo sự đệ trình form.</td></tr>
+			<tr><td>file</td><td>Một file tùy ý với một kiểu MIME và một tên file tùy ý.</td></tr>
+			<tr><td>image</td><td>Một tọa độ, liên quan tới một kích cỡ ảnh riêng, với semantic thêm mà nó phải là giá trị cuối được chọn và khởi tạo sự đệ trình form</td></tr>
+			<tr><td>hidden</td><td>Một chuỗi tùy ý mà thông thường không được hiển thị tới người dùng</td></tr>
+			<tr><td>select</td><td>Một giá trị liệt kê, khá giống với kiểu radio.</td></tr>
+			<tr><td>textarea</td><td>Một trường văn bản không ràng buộc kiểu form, trên danh nghĩa không giới hạn các dòng ngắt.</td></tr>
+			<tr><td>button</td><td>Một form tùy ý của nút mà có thể khởi tạo bất kỳ sự kiện liên quan tới nút</td></tr>
+		</tbody>
+	</table>
+	
+	<p> Ví dụ đơn giản của việc sử dụng các label, các nút radio, và các nút submit:</p>
+	<form action="http://example.com/cgiscript.pl" method="post">
+	   <p>
+		  <label for="firstname">first name: </label>
+		  <input type="text" id="firstname"><br>
+		  <label for="lastname">last name: </label>
+		  <input type="text" id="lastname"><br>
+		  <label for="email">email: </label>
+		  <input type="text" id="email"><br>
+		  
+		  <input type="radio" name="sex" value="male"> Male<br>
+		  <input type="radio" name="sex" value="female"> Female<br>
+		  
+		  <input type="submit" value="submit"><br>
+		  <input type="reset" value="reset"><br>
+		  
+	   </p>
+	</form>
+	
+	<h2> Phần tử &lt;input> trong HTML5</h2>
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+			<th>Kiểu</th>
+			<th>Miêu tả</th>
+			</tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_datetime.htm" target="_blank">datetime</a></td><td>Ngày và thời gian (năm, tháng, ngày, giờ, phút, giây, các phần của giây) được mã hóa theo ISO 8601 với Timezone thiết lập là UTC.</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_datetime_local.htm" target="_blank">datetime-local</a></td><td>Ngày và thời gian (năm, tháng, ngày, giờ, phút, giây, các phần của giây) được mã hóa theo ISO 8601 mà không có thông tin về Timezone.</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_date.htm" target="_blank">date</a></td><td>Ngày và thời gian (năm, tháng, ngày) được mã hóa theo ISO 8601</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_month.htm" target="_blank">month </a></td><td>Một ngày trong một năm và tháng được mã hóa theo ISO 8601</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_week.htm" target="_blank">week</a></td><td>Một ngày trong một năm và số tuần được mã hóa theo ISO 8601</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_time.htm" target="_blank">time </a></td><td>Thời gian (giờ, phút, giây, các phần giây) được mã hóa theo ISO 8601</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_number.htm" target="_blank">number</a></td><td>Chỉ chấp nhận các giá trị số. Thuộc tính step xác định độ chính xác, mặc định là 1</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_range.htm" target="_blank">range</a></td><td>Kiểu range được sử dụng cho các trường input mà nên chứa một giá trị từ một dãy số.</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_email.htm" target="_blank">email</a></td><td>Chỉ chấp nhận giá trị là thư điện tử. Kiểu này được sử dụng cho các trường đầu vào mà nên chứa địa chỉ Email. Nếu bạn cố gắng để đệ trình một văn bản đơn, nó buộc bạn chỉ nhập giá trị thư điện tử trong định dạng email@example.com</td></tr>
+			<tr><td><a href="http://tutorialspoint.com/html5/html5_url.htm" target="_blank">url</a></td><td>Chỉ chấp nhận giá trị URL. Kiểu này được sử dụng cho các trường đầu vào mà nên chứa một địa chỉ URL. Nếu bạn cố gắng để đệ trình một văn bản đơn, nó buộc bạn chỉ nhập địa chỉ URL trong định dạng hoặc  http://www.example.com hoặc http://example.com
+			</td></tr>
+		</tbody>
+	</table>
+	
+	<h3> HTML5 - datetime</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Date and Time : <input type = "datetime" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	  
+	<h3> HTML5 - datetime local</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Local Date and Time : <input type = "datetime-local" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - date</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Date : <input type = "date" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - month</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Month : <input type = "month" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - week</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Week : <input type = "week" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - time</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Time : <input type = "time" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - number</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Select Number : <input type = "number" min = "0" max = "10" step "1" value = "5" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - range</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Select Range : <input type = "range" min = "0" max = "10" step "1" value = "5" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - email</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Enter email : <input type = "email" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	<h3> HTML5 - url</h3>
+	<form action = "http://vietjack.com" method = "get">
+        Enter URL : <input type = "url" name = "tutorialslibrary" />
+        <input type = "submit" value = "Xác nhận" />
+    </form>
+	
+	
+	<h2> Phần tử &lt;output></h2>
+	<form action="http://vietjack.com" method="get" name="myform">
+        Nhập 1 giá trị: <input type="text" name="tutorialslibrary" />
+        <input type="button" value="Kết quả"  onclick="showResult();" />
+        <output name="result"/>
+    </form>
+	
+	<h2> Thuộc tính placeholder</h2>
+	<form action="http://vietjack.com" method="get">
+        Nhập email: <input type="email" name="tutorialslibrary" placeholder="email@gmail.com"/>
+        <input type="submit" value="Xác nhận" />
+    </form>
+	
+	<h2> Thuộc tính autofocus</h2>
+	<form action="http://vietjack.com" method="get">
+        Nhập email : <input type="text" name="tutorialslibrary" autofocus/>
+        <p>Thử gửi bằng nút xác nhận</p>
+        <input type="submit" value="Xác nhận" />
+    </form>
+	
+	<h2> Thuộc tính required</h2>
+	<form action="http://vietjack.com" method="get">
+        Nhập email : <input type="text" name="tutorialslibrary" required/>
+        <p>Thử gửi bằng nút xác nhận</p>
+        <input type="submit" value="Xác nhận" />
+    </form>
+	
+	<h1>SVG trong HTML5</h1>
+	
+	<h3>Nhúng SVG trong HTML5</h3>
+	<p>&lt;svg xmlns="http://www.w3.org/2000/svg"> <br>
+	... <br>
+	&lt;/svg></p>
+	
+	<h3>HTML5 - Đường tròn SVG</h3>
+	<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+        <circle id="redcircle" cx="50" cy="50" r="50" fill="red" />
+    </svg>
+	
+	<h3>HTML5 - Đường chữ nhật SVG</h3>
+	<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+        <rect id="redrect" width="300" height="100" fill="red" />
+    </svg>
+	
+	<h3>HTML5 - Đường thẳng SVG</h3>
+	<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="0" x2="200" y2="100" style="stroke:red;stroke-width:2"/>
+    </svg>
+	
+	<h3>HTML5 - Hình SVG Elip</h3>
+	<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="100" cy="50" rx="100" ry="50" fill="red" />
+    </svg>
+	
+	<h3>HTML5 - Hình đa giác SVG</h3>
+	<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+        <polygon  points="20,10 300,20, 170,50" fill="red" />
+    </svg>
+	
+	<h3>HTML5 - Hình nhiều mặt (polyline) SVG</h3>
+	<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+        <polyline points="0,0 0,20 20,20 20,40 40,40 40,60" fill="red" />
+    </svg>
+	
+	<h3>HTML5 - Hình SVG Gradients</h3>
+	<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+		<defs>
+            <radialGradient id="gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+				<stop offset="0%" style="stop-color:rgb(200,200,200); stop-opacity:0"/>
+				<stop offset="100%" style="stop-color:rgb(0,0,255); stop-opacity:1"/>
+            </radialGradient>
+        </defs>
+		 
+        <ellipse cx="100" cy="50" rx="100" ry="50" style="fill:url(#gradient)" />
+    </svg>
+	
+	<h2>MathML trong HTML5</h2>
+	
+	<h3>Ví dụ MathML</h3>
+	<math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+			<msup><mi>a</mi><mn>2</mn></msup>
+            <mo>+</mo>
+            <msup><mi>b</mi><mn>2</mn></msup>
+            <mo>=</mo>
+            <msup><mi>c</mi><mn>2</mn></msup>
+        </mrow>
+    </math>
+	
+	<h3>Sử dụng các ký tự MathML</h3>
+	<math xmlns="http://www.w3.org/1998/Math/MathML">
+		
+        <mrow>
+            <mrow>
+               <msup>
+					<mi>x</mi>
+					<mn>2</mn>
+               </msup>
+               <mo>+</mo>
+               <mrow>
+					<mn>4</mn>
+					<mo>⁢</mo>
+					<mi>x</mi>
+               </mrow>
+               <mo>+</mo>
+               <mn>4</mn>
+            </mrow>
+            <mo>=</mo>
+            <mn>0</mn>
+        </mrow>
+    </math>
+	
+	<h3>Ví dụ về biểu diễn Ma trận</h3>
+	<math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+            <mi>A</mi>
+            <mo>=</mo>
+            <mfenced open="[" close="]">
+				<mtable>
+					<mtr>
+						<mtd><mi>x</mi></mtd>
+						<mtd><mi>y</mi></mtd>
+					</mtr>
+					<mtr>
+						<mtd><mi>z</mi></mtd>
+						<mtd><mi>w</mi></mtd>
+                  </mtr>
+				</mtable>
+            </mfenced>
+        </mrow>
+    </math>
+	
+	<h2> Web Storage (Kho lưu Web) trong HTML5</h2>
+	
+	<h3>Session Storage</h3>
+	<p>Session Storage lưu trữ dữ liệu cho phiên làm việc duy nhất, nhưng có thể thực hiện nhiều công việc trong các cửa sổ khác nhau tại cùng một thời điểm</p>
+	<script type="text/javascript">
+        if( sessionStorage.hits ){
+			sessionStorage.hits = Number(sessionStorage.hits) + 1;
+        }else {
+			sessionStorage.hits = 1;
+        }
+        document.write("Total Hits :" + sessionStorage.hits );
+    </script>
+    <p>Refresh the page to increase number of hits.</p>
+    <p>Close the window and open it again and check the result.</p>
+
+	<h3>Local Storage</h3>
+	<p>Local Storage được thiết kế để lưu giữ dữ liệu không thời hạn. Dữ liệu vẫn còn được lưu trữ khi đóng trang web hoặc trình duyệt, tùy thuộc vào giá trị thiết lập dung lượng lưu trữ cho trình duyệt của người dùng.</p>
+	<script type="text/javascript">
+        if( localStorage.hits ){
+			localStorage.hits = Number(localStorage.hits) + 1;
+        }else{
+			localStorage.hits = 1;
+        }
+        document.write("Total Hits :" + localStorage.hits );
+    </script>
+    <p>Refresh the page to increase number of hits.</p>
+    <p>Close the window and open it again and check the result.</p>
+	
+	<h3>Xóa Web Storage</h3>
+	<p>Dữ liệu Session Storage sẽ được xóa bởi các trình duyệt ngay lập tức sau khi phiên kết thúc.</p>
+	<script type="text/javascript">
+        localStorage.clear();
+        // Reset number of hits.
+        if( localStorage.hits ){
+            localStorage.hits = Number(localStorage.hits) +1;
+        }else{
+            localStorage.hits = 1;
+        }
+         document.write("Total Hits :" + localStorage.hits );
+      </script>
+      <p>Refreshing the page would not to increase hit counter.</p>
+      <p>Close the window and open it again and check the result.</p>
+
+	<h2>Web SQL Database trong HTML5</h2>
+	<h3>Các phương thức Core</h3>
+	<p>3 phương thức Core được định nghĩa Spec: <br>
+	<b>openDatabase</b>: Phương thức này taọ đối tượng database hoặc sử dụng database đang tồn tại hoặc tạo một database mới. <br>
+	<b>transaction</b>: Phương thức này cho chúng ta khả năng kiểm soát một transaction và thực hiện hoặc commit hoặc rollback dựa trên tình huống đó. <br>
+	<b>executeSql</b>: Phương thức này được sử dụng để thực thi truy vấn SQL thực sự</p>
+	
+	<h3>Phương thức openDatabase</h3>
+	<p>var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); <br>
+	Phương thức trên nhận 5 tham số sau: <br>
+	<ul><li>Tên Database</li>
+	<li>Số phiên bản</li>
+	<li>Miêu tả văn bản</li>
+	<li>Cỡ của Database</li>
+	<li>Tạo Callback</li></ul></p>
+	
+	<h3>Thực thi truy vấn</h3>
+	<p>var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); <br>
+	db.transaction(function (tx) {  <br>
+	tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)');  <br>
+	});</p>
+	
+	<h3>Hoạt động INSERT</h3>
+	<p>var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); <br>
+	db.transaction(function (tx) { <br>
+	tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)'); <br>
+	tx.executeSql('INSERT INTO LOGS (id, log) VALUES (1, "foobar")'); <br>
+	tx.executeSql('INSERT INTO LOGS (id, log) VALUES (2, "logmsg")'); <br>
+	});
+	</p>
+	<p>Chúng ta có thể truyền các giá trị động trong khi tạo đầu vào như sau: <br>
+	var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); <br>
+	db.transaction(function (tx) {   <br>
+	tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)'); <br>
+	tx.executeSql('INSERT INTO LOGS (id,log) VALUES (?, ?'), [e_id, e_log]; <br>
+	});
+	</p>
+	
+	<h3>Hoạt động READ</h3>
+	<p>var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); <br>
+	
+	db.transaction(function (tx) { <br>
+		tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)'); <br>
+		tx.executeSql('INSERT INTO LOGS (id, log) VALUES (1, "foobar")'); <br>
+		tx.executeSql('INSERT INTO LOGS (id, log) VALUES (2, "logmsg")'); <br>
+	}); <br>
+
+	db.transaction(function (tx) { <br>
+		tx.executeSql('SELECT * FROM LOGS', [], function (tx, results) { <br>
+			var len = results.rows.length, i; <br>
+			msg = "&lt;p>Found rows: " + len + "&lt;/p>"; <br>
+			document.querySelector('#status').innerHTML +=  msg; <br>
+	
+		for (i = 0; i &lt; len; i++){ <br>
+			alert(results.rows.item(i).log ); <br>
+		} <br>
+	
+	}, null); <br>
+	});
+	</p>
+	
+	<h3>Ví dụ tổng kết </h3>
+	<div id="status" name="status">Status Message</div>
+
+	<h2> Sự kiện Server-Sent trong HTML5</h2>
+	
+	<h3>Ứng dụng web cho SSE</h3>
+	<p>&lt;div id="sse">
+        &lt;eventsource src="/cgi-bin/ticker.cgi" />
+    &lt;/div>
+		
+    &lt;div id="ticker">
+        &lt;TIME>
+    &lt;/div>
+	</p>
+	
+	<h3>Server-Side Script cho SSE</h3>
+	
+	<p><b>Một Server-Side script nên gửi một Content-type header xác định text/event-stream như sau:.</b> <br>
+
+	print "Content-Type: text/event-stream\n\n"; <br>
+	
+	<b>Sau khi thiết lập Content-Type, Server-Side script sẽ gửi một thẻ Event: được theo sau bởi tên sự kiện. Ví dụ sau sẽ gửi Server-Time như là tên sự kiện được kết thúc bởi một ký tự dòng mới. </b><br>
+
+	print "Event: server-time\n"; <br>
+	
+	<b>Bước cuối cùng để gửi dữ liệu sự kiện sử dụng thẻ Data: mà sẽ được theo sau bởi giá trị chuỗi Integer được kết thúc bởi một ký tự dòng mới như sau: </b><br>
+
+	$time = localtime(); <br>
+	print "Data: $time\n"; <br>
+	
+	<b>Cuối cùng, ticker.cgi được viết đầy đủ trong Perl như sau: </b><br>
+
+	#!/usr/bin/perl <br>
+
+	print "Content-Type: text/event-stream\n\n"; <br>
+
+	while(true){ <br>
+		   print "Event: server-time\n"; <br>
+		   $time = localtime(); <br>
+		   print "Data: $time\n"; <br>
+		   sleep(5); <br>
+	}</p>
+	
+	<h3>Xử lý Server-Side Event</h3>
+	<p>&lt;div id="sse">
+        &lt;eventsource src="/cgi-bin/ticker.cgi" />
+    &lt;/div>
+		
+    &lt;div id="ticker">
+        &lt;TIME>
+    &lt;/div>
+	</p>
+	<div id="sse">
+		<eventsource src="/cgi-bin/ticker.cgi" />
+	</div>
+		
+	<div id="ticker" name="ticker">
+		[TIME]
+	</div>
+
+	<h2> WebSockets trong HTML5</h2>
+	
+	<h3> Các thuộc tính WebSocket</h3>
+	<table class="table table-bordered">
+		<tbody>
+			<tr><th width="30%">Thuộc tính</th><th>Miêu tả</th></tr>
+			<tr>
+				<td>Socket.readyState</td>
+				<td>
+					<p>Thuộc tính chỉ đọc <b>readyState</b> biểu diễn trạng thái kết nối. Nó có các giá trị sau:</p>
+						<ul class="list">
+							<li><p>Giá trị 0 chỉ rằng kết nối vẫn chưa được thành lập.</p></li>
+							<li><p>Giá trị 1 chỉ rằng kết nối đã thành lập và có thể giao tiếp.</p></li>
+							<li><p>Giá trị 2 chỉ rằng kết nối đang qua handshake đóng.</p></li>
+							<li><p>Giá trị 3 chỉ rằng kết nối đã được đóng hoặc không thể được mở.</p></li>
+						</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Socket.bufferedAmount</td>
+				<td><p>Thuộc tính chỉ đọc <b>bufferedAmount</b> biểu diễn số byte của UTF-8 mà đã được xếp hàng bởi sử dụng phương thức send()</p></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h3> Các sự kiện WebSocket</h3>
+	<table class="table table-bordered">
+		<tbody>
+			<tr><th width="10%">Sự kiện</th><th width="25%">Event Handler</th><th>Miêu tả</th></tr>
+			<tr><td>open</td><td>Socket.onopen</td><td>Sự kiện này xảy ra khi kết nối Socket được thành lập.</td></tr>
+			<tr><td>message</td><td>Socket.onmessage</td><td>Sự kiện này xảy ra khi Client nhận dữ liệu từ Server.</td></tr>
+			<tr><td>error</td><td>Socket.onerror</td><td>Sự kiện này xảy ra khi có bất kỳ lỗi nào trong giao tiếp.</td></tr>
+			<tr><td>close</td><td>Socket.onclose</td><td>Sự kiện này xảy ra khi kết nối được đóng.</td></tr>
+		</tbody>
+	</table>
+
+	<h3> Các phương thức WebSocket</h3>
+	<table class="table table-bordered">
+		<tbody>
+			<tr><th width="30%">Phương thức</th><th>Miêu tả</th></tr>
+			<tr><td>Socket.send()</td><td><p>Phương thức send(data) truyền tải dữ liệu sử dụng kết nối đó.</p></td></tr>
+			<tr><td>Socket.close()</td><td><p>Phương thức close() sẽ được sử dụng để kết thúc bất kỳ kết nối đang tồn tại.</p></td></tr>
+		</tbody>
+	</table>
+
+
+	<h3> Ví dụ WebSocket</h3>
+	<p>Một WebSocket là một TCP socket hai chiều chuẩn giữa Client và Server. Socket bắt đầu như là một kết nối HTTP và sau đó "Nâng cấp" thành một TCP socket sau khi một HTTP handshake. Sau handshake, hoặc side có thể gửi dữ liệu.</p>
+	
+	
+	<h3> Client-Side HTML và JavaScript Code</h3>
+	<p><pre>
+		&lt;!DOCTYPE HTML>
+		&lt;html>
+
+	   &lt;head>
+		
+		  &lt;script type="text/javascript">
+			 function WebSocketTest()
+			 {
+				if ("WebSocket" in window)
+				{
+				   alert("WebSocket is supported by your Browser!");
+				   // Let us open a web socket
+				   var ws = new WebSocket("ws://localhost:9998/echo");
+					
+				   ws.onopen = function()
+				   {
+					  // Web Socket is connected, send data using send()
+					  ws.send("Message to send");
+					  alert("Message is sent...");
+				   };
+					
+				   ws.onmessage = function (evt) 
+				   { 
+					  var received_msg = evt.data;
+					  alert("Message is received...");
+				   };
+					
+				   ws.onclose = function()
+				   { 
+					  // websocket is closed.
+					  alert("Connection is closed..."); 
+				   };
+					
+				}
+				else
+					
+				{
+				   // The browser doesn't support WebSocket
+				   alert("WebSocket NOT supported by your Browser!");
+				}
+			 }
+			&lt;/script>
+			
+		&lt;/head>
+		
+			&lt;body>
+			  &lt;div id="sse">
+				 &lt;a href="javascript:WebSocketTest()">Run WebSocket&lt;/a>
+			  &lt;/div>
+		   &lt;/body>
+		
+		&lt;/html>
+	</pre></p>
+	
+	<h3> Cài đặt pywebsocket</h3>
+	
+	<h3> Bắt đầu Server</h3>
+	
+	<h2> Canvas trong HTML5 </h2>
+	<canvas id="mycanvas" width="100" height="100"></canvas>
+	
+	<h3> Rendering Context</h3>
+	<p><pre>
+	var canvas  = document.getElementById("mycanvas");
+
+	if (canvas.getContext){   
+	   var ctx = canvas.getContext('2d');   
+	   // drawing code here   
+	} else {   
+	   // canvas-unsupported code here 
+	}  
+	</pre></p>
+	
+	<h3> Trình duyệt hỗ trợ</h3>
+	<p>
+	&lt;!--[if IE]>&lt;script src="excanvas.js">&lt;/script>&lt;![endif]--&gt;
+	</p>
+	
+	<h3> Ví dụ HTML5 Canvas</h3>
+	<table class="table table-bordered">
+		<tbody>
+			<tr><th width="30%">Ví dụ</th><th>Miêu tả</th></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/ve_hinh_chu_nhat_su_dung_html5_canvas.jsp" title="Vẽ hình chữ nhật trong HTML5 Canvas">Vẽ hình chữ nhật</a></p></td><td><p>Học cách vẽ hình chữ nhật sử dụng phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/ve_duong_su_dung_html5_canvas.jsp" title="Vẽ đường trong HTML5 Canvas">Vẽ đường</a></p></td><td><p>Học cách để tạo Shape sử dụng các đường (path) trong phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/ve_duong_thang_su_dung_html5_canvas.jsp" title="Vẽ đường thẳng trong HTML5 Canvas">Vẽ đường thẳng</a></p></td><td><p>Học cách vẽ đường thẳng sử dụng phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/ve_duong_cong_bezier_su_dung_html5_canvas.jsp" title="Vẽ đường cong Bezier trong HTML5 Canvas">Vẽ đường cong Bezier</a></p></td><td><p>Học cách vẽ đường cong bezier sử dụng phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/ve_duong_cong_quadratic_su_dung_html5_canvas.jsp" title="Vẽ đường cong Quadratic trong HTML5 Canvas">Vẽ đường cong Quadratic</a></p></td><td><p>Học cách vẽ đường cong quandratic sử dụng phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/su_dung_hinh_anh_voi_html5_canvas.jsp" title="Sử dụng hình ảnh trong HTML5 Canvas">Sử dụng hình ảnh</a></p></td><td><p>Học cách để sử dụng các ảnh với phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/tao_gradient_su_dung_html5_canvas.jsp" title="Tạo Gradient trong HTML5 Canvas">Tạo Gradient</a></p></td><td><p>Học cách để tạo Gradient sử dụng phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/tao_style_va_color_su_dung_html5_canvas.jsp" title="Style và Color trong HTML5 Canvas">Style và Color</a></p></td><td><p>Học cách để áp dụng Style và màu sử dụng phần tử HTML5 &lt;canvas&gt;</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/text_font_voi_html5_canvas.jsp" title="Text và Font trong HTML5 Canvas">Text và Font</a></p></td><td><p>Học cách để tạo các văn bản với các font và kích cỡ khác nhau.</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/pattern_va_shadow_voi_html5_canvas.jsp" title="Pattern và Shadow trong HTML5 Canvas">Pattern và Shadow</a></p></td><td><p>Học cách để vẽ các pattern và Shade (shadow)</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/luu_va_khoi_phuc_trang_thai_voi_html5_canvas.jsp" title="Trạng thái trong HTML5 Canvas">Trạng thái Canvas</a></p></td><td><p>Học cách để lưu và hồi phục các trạng thái canvas trong khi thực hiện các hoạt động vẽ phức tạp trên một canvas.</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/phuong_thuc_translate_trong_html5_canvas.jsp" title="Phương thức Translate trong HTML5 Canvas">Phương thức Translate</a></p></td><td><p>Phương thức này được sử dụng để di chuyển canvas và điểm gốc của nó tới một điểm khác trong grid.</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/phuong_thuc_rotate_trong_html5_canvas.jsp" title="Phương thức Rotate trong HTML5 Canvas">Phương thức Rotate</a></p></td><td><p>Phương thức này được sử dụng để quay canvas xung quanh điểm gốc hiện tại.</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/phuong_thuc_scale_trong_html5_canvas.jsp" title="Phương thức Scale trong HTML5 Canvas">Phương thức Scale</a></p></td><td><p>Phương thức này được sử dụng để tăng hoặc giảm các đơn vị trong Canvas Grid.</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/phuong_thuc_transform_trong_html5_canvas.jsp" title="Phương thức Transform trong HTML5 Canvas">Phương thức Transform</a></p></td><td><p>Phương thức này cho phép các chỉnh sửa trực tiếp tới ma trận biến đổi.</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/phuong_thuc_globalcompositeoperation_trong_html5_canvas.jsp" title="Phương thức globalcompositeoperation trong HTML5 Canvas">Phương thức globalcompositeoperation</a></p></td><td><p>Phương thức này được sử dụng để che đi các khu vực nhất định hoặc xóa các khu vực từ canvas.</p></td></tr>
+			<tr><td><p><a href="http://vietjack.com/html5/hieu_ung_voi_html5_canvas.jsp" title="Canvas Animation">Hiệu ứng trong HTML5 Canvas</a></p></td><td><p>Học cách tạo hiệu ứng cơ bản sử dụng HTML5 canvas và JavaScript.</p></td></tr>
+		</tbody>
+	</table>
+
+	<h2>Audio và Video trong HTML5</h2>
+
+	<h3>Nhúng Video</h3>
+	<video  width="300" height="200" controls controls>
+		<source src="./video/foo.mp4" type="video/mp4" />
+	</video>
+	
+	<h3>Thuộc tính thẻ Video</h3>
+	<table class="table table-bordered" cellspacing="0" border="1" cellpadding="5">
+		<tbody><tr><th align="left" width="10" valign="top">Thuộc tính</th><th align="left" width="90%" valign="top">Miêu tả</th></tr>
+			<tr><td>autoplay</td><td>Thuộc tính logic này nếu được xác định trước, video sẽ tự động bắt đầu chơi lại  (playback) ngay sau khi nó có thể thực hiện mà không dừng lại để hoàn thành việc tải dữ liệu.</td></tr>
+			<tr><td>autobuffer</td><td>Thuộc tính logic này nếu được định cấu hình, video sẽ tự động bắt đầu đệm ngay cả khi nó không được thiết lập để tự động chơi.</td></tr>
+			<tr><td>controls</td><td>Nếu thuộc tính này có mặt, nó sẽ cho phép người sử dụng để điều khiển video phát lại sau, bao gồm âm lượng, chơi lại từ đầu và dừng/khôi phục lại sự phát lại. </td></tr>
+			<tr><td>height</td><td>Thuộc tính này xác định chiều cao khu vực hiển thị của video, bằng đơn vị CSS pixel.</td></tr>
+			<tr><td>loop</td><td>Thuộc tính logic này nếu được xác định, sẽ cho phép video tự động playback từ đầu sau khi kết thúc.</td></tr>
+			<tr><td>preload</td><td>Thuộc tính này xác định video sẽ được tải tại trang tải, và sẵn sàng chạy. Bị bỏ qua nếu autoplay có mặt.</td></tr>
+			<tr><td>poster</td><td>Đây là một URL của một hình ảnh để hiển thị cho tới khi người sử dụng chơi hoặc chơi lại từ đầu.</td></tr>
+			<tr><td>src</td><td>URL của video được nhúng. Nó là tùy ý; bạn có thể thay thế cho sử dụng phần tử &lt;source&gt; trong khối video để xác định video để nhúng.</td></tr>
+			<tr><td>width</td><td>Thuộc tính này xác định độ rộng khu vực hiển thị của video, bằng đơn vị CSS pixel.</td></tr>
+		</tbody>
+	</table>
+	
+	<h3>Nhúng Audio</h3>
+	<audio controls autoplay>
+		<source src="./audio/audio.wav" type="audio/wav" />
+	</audio>
+	
+	<h3>Thuộc tính thẻ Audio</h3>
+	<table class="table table-bordered" cellspacing="0" border="1" cellpadding="5">
+		<tbody>
+			<tr><th align="left" width="10" valign="top">Thuộc tính</th><th align="left" width="90%" valign="top">Miêu tả</th></tr>
+			<tr><td>autoplay</td><td>Thuộc tính logic này nếu được xác định trước, audio sẽ tự động bắt đầu playback ngay sau khi nó có thể thực hiện mà không dừng lại để hoàn thành việc tải dữ liệu.</td></tr>
+			<tr><td>autobuffer</td><td>Thuộc tính logic này nếu được định cấu hình, audio sẽ tự động bắt đầu đệm ngay cả khi nó không được thiết lập để tự động chơi.</td></tr>
+			<tr><td>controls</td><td>Nếu thuộc tính này có mặt, nó sẽ cho phép người sử dụng để điều khiển audio phát lại sau, bao gồm âm lượng, chơi lại từ đầu và dừng/khôi phục lại sự phát lại. </td></tr>
+			<tr><td>loop</td><td>Thuộc tính logic này nếu được xác định, sẽ cho phép audio tự động chơi lại từ đầu sau khi kết thúc.</td></tr>
+			<tr><td>preload</td><td>Thuộc tính này xác định audio sẽ được tải tại trang tải, và sẵn sàng chạy. Bị bỏ qua nếu autoplay có mặt.</td></tr>
+			<tr><td>src</td><td>URL của audio được nhúng. Nó là tùy ý; bạn có thể thay thế cho sử dụng phần tử &lt;source&gt; trong khối video để xác định video để nhúng.</td></tr>
+		</tbody>
+	</table>
+	
+	<h3>Xử lý các sự kiện của Media</h3>
+	<table class="table table-bordered" cellspacing="0" border="1" cellpadding="5">
+		<tbody>
+			<tr><th align="left" width="10" valign="top">Sự kiện</th><th align="left" width="90%" valign="top">Miêu tả</th></tr>
+			<tr><td>abort</td><td>Sự kiện này được tạo khi playback bị bở dở.</td></tr>
+			<tr><td>canplay</td><td>Sự kiện này được tạo khi đủ dữ liệu có sẵn mà đa phương tiện có thể được chơi.</td></tr>
+			<tr><td>ended</td><td>Sự kiện này được tạo khi playback hoàn thành.</td></tr>
+			<tr><td>error</td><td>Sự kiện này được tạo khi một lỗi xảy ra</td></tr>
+			<tr><td>loadeddata</td><td>Sự kiện này được tạo khi Frame đầu tiên của media đã hoàn thành tải.</td></tr>
+			<tr><td>loadstart</td><td>Sự kiện này được tạo khi quá trình tải của media bắt đầu.</td></tr>
+			<tr><td>pause</td><td>Sự kiện này được tạo khi playback bị dừng.</td></tr>
+			<tr><td>play</td><td>Sự kiện này được tạo khi playback bắt đầu hoặc khôi phục.</td></tr>
+			<tr><td>progress</td><td>Sự kiện này được tạo định kỳ để thông báo tiến trình của việc tải media.</td></tr>
+			<tr><td>ratechange</td><td>Sự kiện này được tạo khi tốc độ playback thay đổi.</td></tr>
+			<tr><td>seeked</td><td>Sự kiện này được tạo khi một hoạt động seek hoàn thành.</td></tr>
+			<tr><td>seeking</td><td>Sự kiện này được tạo khi một hoạt động seek bắt đầu.</td></tr>
+			<tr><td>suspend</td><td>Sự kiện này được tạo khi việc tải media bị hoãn.</td></tr>
+			<tr><td>volumechange</td><td>Sự kiện này được tạo khi âm lượng audio thay đổi</td></tr>
+			<tr><td>waiting</td><td>Sự kiện này được tạo khi hoạt động được yêu cầu (ví dụ như playback) bị trì hoãn để đợi hoạt động khác kết thúc (ví dụ như hoạt động seek).</td></tr>
+		</tbody>
+	</table>
+	
+	<p>Sau đây là ví dụ mà cho phép play một video đã cho:</p>
+	<form>
+	   <video  width="300" height="200" src="./video/foo1.mp4"> </video> <br>
+	   <input type="button" onclick="PlayVideo();"  value="Play"/>
+	</form>
+
+	<h3>Định cấu hình Server cho kiểu media</h3>
+	<p>AddType audio/ogg .oga <br>
+	AddType audio/wav .wav <br>
+	AddType video/ogg .ogv .ogg <br>
+	AddType video/mp4 .mp4  <br></p>
+
+	<h2>Geolocation trong HTML5</h2>
+	
+	<h3> Phương thức Geolocation</h3>
+	<table class="table table-bordered" border="1" cellpadding="5" cellspacing="0" width="50%">
+		<tbody>
+			<tr>
+				<th width="45%">Phương thức</th>
+				<th>Miêu tả</th>
+			</tr>
+			<tr>
+				<td><a href="http://vietjack.com/html5/phuong_thuc_getcurrentposition_trong_html5.jsp" title="Phương thức getCurrentPosition trong HTML5">getCurrentPosition()</a></td>
+				<td><p>Phương thức này thu nhận vị trí địa lý hiện tại của người dùng.</p> </td>
+			</tr>
+			<tr>
+				<td><a href="http://vietjack.com/html5/phuong_thuc_watchposition_trong_html5.jsp" title="Phương thức watchPosition trong HTML5">watchPosition()</a></td>
+				<td><p>Phương thức này thu nhận các cập nhật định kỳ về vị trí địa lý của thiết bị.</p></td>
+			</tr>
+			<tr>
+				<td><a href="http://vietjack.com/html5/phuong_thuc_clearwatch_trong_html5.jsp" title="Phương thức clearWatch trong HTML5">clearWatch()</a></td>
+				<td><p>Phương thức này hủy một việc gọi watchPosition đang diễn ra.</p></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h3> Các thuộc tính vị trí</h3>
+	<h3> Xử lý lỗi</h3>
+	<h3> Các tùy chọn Position</h3>
+	
+	
+	<h2> Microdata trong HTML5</h2>
+	<h3> Các thuộc tính Global</h3>
+	<h3> Các kiểu dữ liệu của thuộc tính</h3>
+	<h3> Hỗ trợ Microdata API</h3>
+	<h3> Định nghĩa Microdata Vocabulary</h3>
+	
+	
+	<h2> Drag và Drop trong HTML5</h2>
+	
+	
+	<h2> Web Worker trong HTML5</h2>
+	<p>JavaScript được thiết kế để chạy trong một môi trường single-threaded, nghĩa là nhiều script không thể chạy tại cùng một thời điểm. Giả sử một tình huống mà bạn cần xử lý các sự kiện UI, truy vấn, và xử lý một lượng lớn dữ liệu API, và thao tác DOM. <br>
+	JavaScript sẽ treo trình duyệt của bạn trong tình huống mà sự sử dụng CPU là cao. Chúng ta có một ví dụ đơn giản mà Javascript phân tích một vòng lặp lớn: </p>
+	<input type="button" onclick="bigLoop();" value="Big Loop" />
+	<input type="button" onclick="sayHello();" value="Xin chao!" />
+	
+	<h3>Web Workers là gì?</h3>
+	
+	<h3>Cách Web Workers làm việc?</h3>
+	
+	<h3> Dừng Web Workers</h3>
+	
+	<h3> Xử lý các lỗi</h3>
+	
+	<h3> Kiểm tra trình duyệt hỗ trợ</h3>
+	
+	<h3> Dừng Web Workers</h3>
+	
+	
+	<h2> Tổng hợp các thẻ HTML5</h2>
+	<table class="table table-bordered" cellpadding="5" border="1">
+		<tbody>
+			<tr><th align="left" valign="top" width="30%">Thẻ</th><th align="left" valign="top">Miêu tả</th></tr>
+			<tr><td valign="top">&lt;!--...--&gt;</td><td valign="top">Xác định một comment</td></tr>
+			<tr><td valign="top">&lt;!DOCTYPE&gt;&nbsp;</td><td valign="top">Xác định kiểu tài liệu</td></tr>
+			<tr><td valign="top">&lt;a&gt;</td><td valign="top">Xác định một Anchor</td></tr>
+			<tr><td valign="top">&lt;abbr&gt;</td><td valign="top">Xác định một từ viết tắt</td></tr>
+			<tr><td valign="top">&lt;acronym&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một tên lược danh</td></tr>
+			<tr><td valign="top">&lt;address&gt;</td><td valign="top">Xác định một phần tử address</td></tr>
+			<tr><td valign="top">&lt;applet&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một vi mã</td></tr>
+			<tr><td valign="top">&lt;area&gt;</td><td valign="top">Xác định một khu vực bên trong image map</td></tr>
+			<tr><td valign="top">&lt;article&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một phần độc lập của nội dung tài liệu, như một blog entry hoặc newspaper article</td></tr>
+			<tr><td valign="top">&lt;aside&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một phần nội dung mà chỉ hơi liên quan tới phần còn lại của trang.</td></tr>
+			<tr><td valign="top">&lt;audio&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một audio file</td></tr>
+			<tr><td valign="top">&lt;base&gt;</td><td valign="top">Xác định một URL cơ sở cho tất các link trong một trang</td></tr>
+			<tr><td valign="top">&lt;basefont&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một font cơ sở</td></tr>
+			<tr><td valign="top">&lt;bdo&gt;</td><td valign="top">Xác định hướng của văn bản hiển thị</td></tr>
+			<tr><td valign="top">&lt;bgsound&gt;</td><td valign="top">Xác định nhạc nền</td></tr>
+			<tr><td valign="top">&lt;blink&gt;</td><td valign="top">Xác định một văn bản nhấp nháy</td></tr>
+			<tr><td valign="top">&lt;blockquote&gt;</td><td valign="top">Xác định một trích dẫn dài</td></tr>
+			<tr><td valign="top">&lt;body&gt;</td><td valign="top">Xác định phần tử body</td></tr>
+			<tr><td valign="top">&lt;br&gt;</td><td valign="top">Chèn một dòng ngắt.</td></tr>
+			<tr><td valign="top">&lt;button&gt;</td><td valign="top">Xác định một nút đẩy</td></tr>
+			<tr><td valign="top">&lt;canvas&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Được sử dụng để trả lại các đồ họa bitmap động, như các đồ thị hoặc các game</td></tr>
+			<tr><td valign="top">&lt;caption&gt;</td><td valign="top">Xác định một phụ đề bảng</td></tr>
+			<tr><td valign="top">&lt;center&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định căn chỉnh văn bản trung tâm</td></tr>
+			<tr><td valign="top">&lt;col&gt;</td><td valign="top">Xác định các thuộc tính cho các cột bảng</td></tr>
+			<tr><td valign="top">&lt;colgroup&gt;</td><td valign="top">Xác định các nhóm cho các cột bảng</td></tr>
+			<tr><td valign="top">&lt;command&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span>Xác định một lệnh mà người sử dụng có thể gọi.</td></tr>
+			<tr><td valign="top">&lt;comment&gt;</td><td valign="top">Đặt một comment trong tài liệu</td></tr>
+			<tr><td valign="top">&lt;datalist&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Cùng với một thuộc tính list mới cho input có thể được sử dụng để tạo các hộp combo.</td></tr>
+			<tr><td valign="top">&lt;dd&gt;</td><td valign="top">Xác định một sự miêu tả định nghĩa</td></tr>
+			<tr><td valign="top">&lt;del&gt;</td><td valign="top">Xác định văn bản bị xóa</td></tr>
+			<tr><td valign="top">&lt;details&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định thông tin bổ sung hoặc điều khiển mà người sử dụng có thể yêu cầu.</td></tr>
+			<tr><td valign="top">&lt;dir&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một danh sách thư mục</td></tr>
+			<tr><td valign="top">&lt;div&gt;</td><td valign="top">Xác định một khu vực trong tài liệu</td></tr>
+			<tr><td valign="top">&lt;dl&gt;</td><td valign="top">Xác định một danh sách định nghĩa</td></tr>
+			<tr><td valign="top">&lt;dt&gt;</td><td valign="top">Xác định một mục định nghĩa</td></tr>
+			<tr><td valign="top">&lt;embed&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Định nghĩa nội dung tương tác ngoại vi hoặc plugin</td></tr>
+			<tr><td valign="top">&lt;fieldset&gt;</td><td valign="top">Xác định một fieldset</td></tr>
+			<tr><td valign="top">&lt;figure&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một phần luồng (flow) nội dung tự chứa, đặc biệt được tham chiếu như là một đơn vị từ dòng chính của tài liệu.</td></tr>
+			<tr><td valign="top">&lt;b&gt;</td><td valign="top">Xác định văn bản in đậm</td></tr>
+			<tr><td valign="top">&lt;big&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định big text</td></tr>
+			<tr><td valign="top">&lt;i&gt;</td><td valign="top">Xác định văn bản in nghiêng</td></tr>
+			<tr><td valign="top">&lt;small&gt;</td><td valign="top">Xác định small text</td></tr>
+			<tr><td valign="top">&lt;tt&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định teletype text</td></tr>
+			<tr><td valign="top">&lt;font&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định font, màu, cỡ văn bản</td></tr>
+			<tr><td valign="top">&lt;footer&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một footer cho một khu vực và có thể chứa thông tin về tác giả, bản quyền, …</td></tr>
+			<tr><td valign="top">&lt;form&gt;</td><td valign="top">Xác định một form</td></tr>
+			<tr><td valign="top">&lt;frame&gt;</td><td valign="top"> <span class="bold">Thẻ cũ:</span> Xác định một cửa sổ phụ (một frame)</td></tr>
+			<tr><td valign="top">&lt;frameset&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một tập hợp các Frame</td></tr>
+			<tr><td valign="top">&lt;head&gt;</td><td valign="top">Xác định thông tin về tài liệu</td></tr>
+			<tr><td valign="top">&lt;header&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một nhóm các chỉ dẫn giúp đỡ hoặc điều hướng.</td></tr>
+			<tr><td valign="top">&lt;hgroup&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định header cho một khu vực</td></tr>
+			<tr><td valign="top">&lt;h1&gt; to &lt;h6&gt;</td><td valign="top"> Xác định header 1 đến header 6</td></tr>
+			<tr><td valign="top">&lt;hr&gt;</td><td valign="top"> Xác định một quy tắc ngang</td></tr>
+			<tr><td valign="top">&lt;html&gt;</td><td valign="top">Xác định một tài liệu HTML</td></tr>
+			<tr><td valign="top">&lt;isindex&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một trường input đơn dòng</td></tr>
+			<tr><td valign="top">&lt;iframe&gt;</td><td valign="top">Xác định một cửa sổ phụ nội tuyến (frame)</td></tr>
+			<tr><td valign="top">&lt;ilayer&gt;</td><td valign="top">Xác định một tầng nội tuyến</td></tr>
+			<tr><td valign="top">&lt;img&gt;</td><td valign="top">Xác định một ảnh</td></tr>
+			<tr><td valign="top">&lt;input&gt;</td><td valign="top">Xác định một trường đầu vào</td></tr>
+			<tr><td valign="top">&lt;ins&gt;</td><td valign="top">Xác định văn bản được chèn</td></tr>
+			<tr><td valign="top">&lt;keygen&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định điều khiển cho thế hệ key pair.</td></tr>
+			<tr><td valign="top">&lt;keygen&gt;</td><td valign="top">Tạo thông tin khóa trong một form</td></tr>
+			<tr><td valign="top">&lt;label&gt;</td><td valign="top">Xác định một label cho một điều khiển form</td></tr>
+			<tr><td valign="top">&lt;layer&gt;</td><td valign="top">Xác định một tầng</td></tr>
+			<tr><td valign="top">&lt;legend&gt;</td><td valign="top">Xác định một title cho một fieldset</td></tr>
+			<tr><td valign="top">&lt;li&gt;</td><td valign="top">Xác định một mục danh sách</td></tr>
+			<tr><td valign="top">&lt;link&gt;</td><td valign="top">Xác định một tham chiếu nguồn </td></tr>
+			<tr><td valign="top">&lt;map&gt;</td><td valign="top">Xác định một image map</td></tr>
+			<tr><td valign="top">&lt;mark&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một sự chạy của văn bản trong một tài liệu được đánh dấu hoặc làm nổi bật cho mục đích tham chiếu, do sự liên quan của nó tới context khác.</td></tr>
+			<tr><td valign="top">&lt;marquee&gt;</td><td valign="top">Tạo một dòng chữ chạy</td></tr>
+			<tr><td valign="top">&lt;menu&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một danh sách menu</td></tr>
+			<tr><td valign="top">&lt;meta&gt;</td><td valign="top">Xác định một thông tin meta</td></tr>
+			<tr><td valign="top">&lt;meter&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một sự ước lượng, ví dụ: phần trăm sử dụng đĩa</td></tr>
+			<tr><td valign="top">&lt;multicol&gt;</td><td valign="top">Xác định một luồng văn bản nhiều cột</td></tr>
+			<tr><td valign="top">&lt;nav&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một khu vực của tài liệu đã dự định để điều hướng</td></tr>
+			<tr><td valign="top">&lt;nobr&gt;</td><td valign="top">Không có sự ngắt nào được phép trong văn bản được bao</td></tr>
+			<tr><td valign="top">&lt;noembed&gt;</td><td valign="top">Xác định nội dung được hiện diện bởi trình duyệt mà không hỗ trợ thẻ &lt;embed&gt;</td></tr>
+			<tr><td valign="top">&lt;noframes&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định một khu vực noframe</td></tr>
+			<tr><td valign="top">&lt;noscript&gt;</td><td valign="top">Xác định một khu vực noscript</td></tr>
+			<tr><td valign="top">&lt;object&gt;</td><td valign="top">Xác định một đối tượng được nhúng</td></tr>
+			<tr><td valign="top">&lt;ol&gt;</td><td valign="top">Xác định một danh sách được sắp thứ tự</td></tr>
+			<tr><td valign="top">&lt;optgroup&gt;</td><td valign="top">Xác định một nhóm tùy chọn</td></tr>
+			<tr><td valign="top">&lt;option&gt;</td><td valign="top">Xác định một tùy chọn trong một danh sách drop-down</td></tr>
+			<tr><td valign="top">&lt;output&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một số kiểu đầu ra, như từ một phép tính được thực hiện thông qua scripting.</td></tr>
+			<tr><td valign="top">&lt;p&gt;</td><td valign="top">Xác định một đoạn văn</td></tr>
+			<tr><td valign="top">&lt;param&gt;</td><td valign="top">Xác định một tham số cho một đối tượng</td></tr>
+			<tr><td valign="top">&lt;cite&gt;</td><td valign="top">Xác định một câu trích dẫn</td></tr>
+			<tr><td valign="top">&lt;code&gt;</td><td valign="top">Xác định một mã máy tính</td></tr>
+			<tr><td valign="top">&lt;dfn&gt;</td><td valign="top">Xác định một mục định nghĩa</td></tr>
+			<tr><td valign="top">&lt;em&gt;</td><td valign="top">Xác định văn bản được nhấn mạnh</td></tr>
+			<tr><td valign="top">&lt;kbd&gt;</td><td valign="top">Xác định văn bản từ bàn phím</td></tr>
+			<tr><td valign="top">&lt;samp&gt;</td><td valign="top">Xác định mã máy tính mẫu</td></tr>
+			<tr><td valign="top">&lt;strong&gt;</td><td valign="top">Xác định văn bản strong</td></tr>
+			<tr><td valign="top">&lt;var&gt;</td><td valign="top">Xác định một biến</td></tr>
+			<tr><td valign="top">&lt;plaintext&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Trả về sự nhắc nhở của tài liệu như thuần văn bản được định dạng trước</td></tr>
+			<tr><td valign="top">&lt;pre&gt;</td><td valign="top">Xác định văn bản được định dạng trước</td></tr>
+			<tr><td valign="top">&lt;progress&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một sự kết thúc của một task, như việc tải về hoặc khi thực hiện một loạt các hoạt động đắt đỏ</td></tr>
+			<tr><td valign="top">&lt;q&gt;</td><td valign="top">Xác định một trích dẫn ngắn</td></tr>
+			<tr><td valign="top">&lt;ruby&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Cùng với thẻ &lt;rt&gt; và &lt;rp&gt; cho phép đánh dấu ruby annotations.</td></tr>
+			<tr><td valign="top">&lt;script&gt;</td><td valign="top">Xác định một script</td></tr>
+			<tr><td valign="top">&lt;section&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Biểu diễn một tài liệu hoặc khu vực ứng dụng chung</td></tr>
+			<tr><td valign="top">&lt;select&gt;</td><td valign="top">Xác định một danh sách có thể lựa chọn</td></tr>
+			<tr><td valign="top">&lt;spacer&gt;</td><td valign="top">Xác định một khoảng trống trắng</td></tr>
+			<tr><td valign="top">&lt;span&gt;</td><td valign="top">Xác định một khu vực trong một tài liệu</td></tr>
+			<tr><td valign="top">&lt;s&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định văn bản bị gạch ngang</td></tr>
+			<tr><td valign="top">&lt;strike&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định văn bản bị gạch ngang</td></tr>
+			<tr><td valign="top">&lt;style&gt;</td><td valign="top">Xác định một định nghĩa style</td></tr>
+			<tr><td valign="top">&lt;sub&gt;</td><td valign="top">Xác định văn bản chỉ số dưới</td></tr>
+			<tr><td valign="top">&lt;sup&gt;</td><td valign="top">Xác định văn bản chỉ số trên</td></tr>
+			<tr><td valign="top">&lt;table&gt;</td><td valign="top">Xác định một bảng</td></tr>
+			<tr><td valign="top">&lt;tbody&gt;</td><td valign="top">Xác định một thân bảng</td></tr>
+			<tr><td valign="top">&lt;td&gt;</td><td valign="top">Xác định một ô bảng</td></tr>
+			<tr><td valign="top">&lt;textarea&gt;</td><td valign="top">Xác định một khu vực văn bản</td></tr>
+			<tr><td valign="top">&lt;tfoot&gt;</td><td valign="top">Xác định một footer cho bảng</td></tr>
+			<tr><td valign="top">&lt;th&gt;</td><td valign="top">Xác định một header cho bảng</td></tr>
+			<tr><td valign="top">&lt;thead&gt;</td><td valign="top">Xác định một header cho bảng</td></tr>
+			<tr><td valign="top">&lt;time&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một ngày và/hoặc thời gian</td></tr>
+			<tr><td valign="top">&lt;title&gt;</td><td valign="top">Xác định title tài liệu</td></tr>
+			<tr><td valign="top">&lt;tr&gt;</td><td valign="top">Xác định một hàng của bảng</td></tr>
+			<tr><td valign="top">&lt;u&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định văn bản bị gạch chân</td></tr>
+			<tr><td valign="top">&lt;ul&gt;</td><td valign="top">Xác định một danh sách không xếp theo thứ tự</td></tr>
+			<tr><td valign="top">&lt;video&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một video file</td></tr>
+			<tr><td valign="top">&lt;wbr&gt;</td><td valign="top"><span class="bold">Thẻ mới:</span> Xác định một dòng ngắt</td></tr>
+			<tr><td valign="top">&lt;wbr&gt;</td><td valign="top">Chỉ dẫn một điểm ngắt từ tiềm năng trong một  khu vực &lt;nobr&gt;</td></tr>
+			<tr><td valign="top">&lt;xmp&gt;</td><td valign="top"><span class="bold">Thẻ cũ:</span> Xác định văn bản được định dạng trước</td></tr>
+		</tbody>
+	</table>
+	
+	<h2> Thẻ cũ trong HTML5</h2>
+	<table class="table table-bordered" border="1" cellpadding="5" cellspacing="0" width="100%">
+		<tbody>
+			<tr><th width="30%">Thẻ (Phần tử)</th><th>Miêu tả</th></tr>
+			<tr><td>&lt;acronym&gt;</td><td>Định nghĩa một tên lược danh</td></tr>
+			<tr><td>&lt;applet&gt; </td><td>Định nghĩa một vi mã</td></tr>
+			<tr><td>&lt;basefont&gt;</td><td>Định nghĩa một font cơ sở cho trang</td></tr>
+			<tr><td>&lt;big&gt;</td><td>Định nghĩa big text</td></tr>
+			<tr><td>&lt;center&gt;</td><td>Định nghĩa sự căn chỉnh văn bản trung tâm</td></tr>
+			<tr><td>&lt;dir&gt;</td><td>Định nghĩa một danh sách thư mục</td></tr>
+			<tr><td>&lt;font&gt;</td><td>Định nghĩa font, màu, cỡ văn bản</td></tr>
+			<tr><td>&lt;frame&gt; </td><td>Định nghĩa một frame</td></tr>
+			<tr><td>&lt;frameset&gt; </td><td>Định nghĩa một tập hợp các frame</td></tr>
+			<tr><td>&lt;isindex&gt; </td><td>Định nghĩa một trường đầu vào dòng đơn</td></tr>
+			<tr><td>&lt;noframes&gt;</td><td>Định nghĩa một khu vực noframe</td></tr>
+			<tr><td>&lt;s&gt; </td><td>Định nghĩa một văn bản bị gạch ngang</td></tr>
+			<tr><td>&lt;strike&gt;</td><td>Định nghĩa một văn bản bị gạch ngang</td></tr>
+			<tr><td>&lt;tt&gt;</td><td>Định nghĩa teletype text</td></tr>
+			<tr><td>&lt;u&gt; </td><td>Định nghĩa văn bản bị gạch chân</td></tr>
+		</tbody>
+	</table>
+	
+	<h2> Thuộc tính cũ trong HTML5</h2>
+	<table class="table table-bordered" border="1" cellpadding="5" cellspacing="0" width="100%">
+		<tbody>
+			<tr><th width="30%">Thuộc tính bị gỡ bỏ</th><th>Từ phần tử</th></tr>
+			<tr><td>rev</td><td>link, a</td></tr>
+			<tr><td>charset </td><td>link and a</td></tr>
+			<tr><td>shape </td><td>a</td></tr>
+			<tr><td>coords </td><td>a</td></tr>
+			<tr><td>longdesc </td><td>img và iframe.</td></tr>
+			<tr><td>target </td><td>link</td></tr>
+			<tr><td>nohref </td><td>area</td></tr>
+			<tr><td>profile </td><td>head</td></tr>
+			<tr><td>version </td><td>html</td></tr>
+			<tr><td>name </td><td>img</td></tr>
+			<tr><td>scheme </td><td>meta</td></tr>
+			<tr><td>archive</td><td>object</td></tr>
+			<tr><td>classid</td><td>object</td></tr>
+			<tr><td>codebase</td><td>object</td></tr>
+			<tr><td>codetype</td><td>object</td></tr>
+			<tr><td>declare </td><td>object</td></tr>
+			<tr><td>standby </td><td>object</td></tr>
+			<tr><td>valuetype </td><td>param</td></tr>
+			<tr><td>type </td><td>param</td></tr>
+			<tr><td>axis </td><td>td and t</td></tr>
+			<tr><td>abbr </td><td>td and t</td></tr>
+			<tr><td>scope </td><td>td</td></tr>
+			<tr><td>align </td><td>caption, iframe, img, input, object, legend, table, hr, div, h1, h2, h3, h4, h5, h6, p, col, colgroup, tbody, td, tfoot, th, thead và tr.</td></tr>
+			<tr><td>alink</td><td>body</td></tr>
+			<tr><td>link</td><td>body</td></tr>
+			<tr><td>vlink </td><td>body</td></tr>
+			<tr><td>text </td><td>body</td></tr>
+			<tr><td>background </td><td>body</td></tr>
+			<tr><td>bgcolor </td><td>table, tr, td, th và body.</td></tr>
+			<tr><td>border </td><td>table và object.</td></tr>
+			<tr><td>cellpadding </td><td>table</td></tr>
+			<tr><td>cellspacing </td><td>table</td></tr>
+			<tr><td>char </td><td>col, colgroup, tbody, td, tfoot, th, thead và tr.</td></tr>
+			<tr><td>charoff </td><td>col, colgroup, tbody, td, tfoot, th, thead và tr.</td></tr>
+			<tr><td>clear </td><td>br</td></tr>
+			<tr><td>compact </td><td> dl, menu, ol và ul. </td></tr>
+			<tr><td>frame </td><td>table</td></tr>
+			<tr><td>compact </td><td>dl, menu, ol và ul.</td></tr>
+			<tr><td>frame </td><td>table</td></tr>
+			<tr><td>frameborder </td><td>iframe</td></tr>
+			<tr><td>hspace  </td><td>img và object.</td></tr>
+			<tr><td>vspace </td><td>img và object.</td></tr>
+			<tr><td>marginheight </td><td>iframe</td></tr>
+			<tr><td>marginwidth </td><td>iframe</td></tr>
+			<tr><td>noshade </td><td>hr</td></tr>
+			<tr><td>nowrap </td><td>td và th</td></tr>
+			<tr><td>rules </td><td>table</td></tr>
+			<tr><td>scrolling </td><td>iframe</td></tr>
+			<tr><td>size </td><td>hr</td></tr>
+			<tr><td>type </td><td>li, ol và ul. </td></tr>
+			<tr><td>valign </td><td>col, colgroup, tbody, td, tfoot, th, thead và tr</td></tr>
+			<tr><td>width </td><td>hr, table, td, th, col, colgroup và pre. </td></tr>
+		</tbody>
+	</table>
+	
+	<h2> Thẻ mới trong HTML5</h2>
+	<table class="table table-bordered" border="1" cellpadding="5" cellspacing="0" width="100%">
+		<tbody>
+			<tr><th width="30%">Thẻ (Phần tử)</th><th>Miêu tả</th></tr>
+			<tr><td>&lt;article&gt;</td><td>Xác định một phần độc lập của nội dung tài liệu, như một blog entry hoặc newspaper article</td></tr>
+			<tr><td>&lt;aside &gt;</td><td>Xác định một phần nội dung mà chỉ hơi liên quan tới phần còn lại của trang</td></tr>
+			<tr><td>&lt;audio&gt;</td><td>Xác định một audio file</td></tr>
+			<tr><td>&lt;canvas&gt;</td><td>Được sử dụng để trả lại các đồ họa bitmap động, như các đồ thị hoặc các game</td></tr>
+			<tr><td>&lt;command&gt;</td><td>Xác định một lệnh mà người sử dụng có thể gọi</td></tr>
+			<tr><td>&lt;datalist&gt;</td><td>Cùng với một thuộc tính list mới cho input có thể được sử dụng để tạo các hộp combo</td></tr>
+			<tr><td>&lt;details&gt;</td><td>Xác định thông tin bổ sung hoặc điều khiển mà người sử dụng có thể yêu cầu.</td></tr>
+			<tr><td>&lt;embed&gt;</td><td>Định nghĩa nội dung tương tác ngoại vi hoặc plugin</td></tr>
+			<tr><td>&lt;figure&gt;</td><td>Xác định một phần luồng (flow) nội dung tự chứa, đặc biệt được tham chiếu như là một đơn vị từ dòng chính của tài liệu.</td></tr>
+			<tr><td>&lt;footer&gt;</td><td>Xác định một footer cho một khu vực và có thể chứa thông tin về tác giả, bản quyền, …</td></tr>
+			<tr><td>&lt;header&gt;</td><td>Xác định một nhóm các chỉ dẫn giúp đỡ hoặc điều hướng</td></tr>
+			<tr><td>&lt;hgroup&gt;</td><td>Xác định header cho một khu vực</td></tr>
+			<tr><td>&lt;keygen&gt;</td><td>Xác định điều khiển cho thế hệ key pair.</td></tr>
+			<tr><td>&lt;mark&gt;</td><td>Xác định một sự chạy của văn bản trong một tài liệu được đánh dấu hoặc làm nổi bật cho mục đích tham chiếu, do sự liên quan của nó tới context khác.</td></tr>
+			<tr><td>&lt;meter&gt;</td><td>Xác định một sự ước lượng, ví dụ: phần trăm sử dụng đĩa</td></tr>
+			<tr><td>&lt;nav&gt;</td><td>Xác định một khu vực của tài liệu đã dự định để điều hướng</td></tr>
+			<tr><td>&lt;output&gt;</td><td>Xác định một số kiểu đầu ra, như từ một phép tính được thực hiện thông qua scripting.</td></tr>
+			<tr><td>&lt;progress&gt;</td><td>Xác định một sự kết thúc của một task, như việc tải về hoặc khi thực hiện một loạt các hoạt động đắt đỏ</td></tr>
+			<tr><td>&lt;ruby&gt;</td><td>Cùng với thẻ  &lt;rt&gt; và &lt;rp&gt; cho phép đánh dấu ruby annotations.</td></tr>
+			<tr><td>&lt;section&gt;</td><td>Biểu diễn một tài liệu hoặc khu vực ứng dụng chung</td></tr>
+			<tr><td>&lt;time&gt;</td><td>Xác định một ngày và/hoặc thời gian</td></tr>
+			<tr><td>&lt;video&gt;</td><td>Xác định một video file</td></tr>
+			<tr><td>&lt;wbr&gt;</td><td>Xác định một dòng ngắt</td></tr>
+		</tbody>
+	</table>
+	
+	<h2> Các thuộc tính type mới cho thẻ &lt;input></h2>
+	<table class="table table-bordered" border="1" cellpadding="5" cellspacing="0" width="100%">
+		<tbody>
+			<tr><th width="30%">Kiểu</th><th>Miêu tả</th></tr>
+			<tr><td>color</td><td>Bộ chọn màu, mà có thể được biểu diễn bởi bảng chọn màu.</td></tr>
+			<tr><td>date</td><td>Bộ chọn cho ngày theo lịch</td></tr>
+			<tr><td>datetime-local</td><td>Ngày và thời gian hiển thị, không có thiết lập hoặc chỉ dẫn về Timezone</td></tr>
+			<tr><td>datetime</td><td>Ngày và thời gian đầy đủ, bao gồm một Timezone</td></tr>
+			<tr><td>email</td><td>Kiểu đầu vào nên là một email</td></tr>
+			<tr><td>month</td><td>Bộ chọn cho một ngày trong một năm đã cho</td></tr>
+			<tr><td>number</td><td>Một trường chỉ chứa giá trị số</td></tr>
+			<tr><td>range</td><td>Bộ chọn giá trị số trong một dãy giá trị, mường tượng như là một con trượt.</td></tr>
+			<tr><td>search</td><td>Một khái niệm để cung cấp cho một phương tiện tìm kiếm. Ví dụ, thanh tìm kiếm ở đầu một trình duyệt</td></tr>
+			<tr><td>tel</td><td>Kiểu đầu vào nên là số điện thoại</td></tr>
+			<tr><td>time</td><td>Bộ chỉ dẫn và bộ chọn thời gian, không có thông tin Timezone</td></tr>
+			<tr><td>url</td><td>Kiểu đầu vào nên là kiểu URL</td></tr>
+			<tr><td>week</td><td>Bộ chọn cho một tuần trong một năm đã cho.</td></tr>
+		</tbody>
+	</table>
+	
+</body>
+
+</html>
